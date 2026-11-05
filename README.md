@@ -16,5 +16,5 @@ SplitAI is a smart FinTech web application that transforms unstructured group bi
 ## ⚙️ How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/SplitAI-PayPal.git
+   git clone https://github.com/Shahid-Tan/SplitAI-PayPal.git
    cd SplitAI-PayPal
