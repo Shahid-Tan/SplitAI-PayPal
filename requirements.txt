@@ -1,2 +1,11 @@
-streamlit
-google-generativeai
+# SplitAI — pinned runtime dependencies (Python 3.12 tested).
+# Install with:  pip install -r requirements.txt
+
+streamlit==1.67.0        # UI framework (uses >=1.57 APIs)
+google-genai==3.0.0      # Gemini SDK (maintained successor of google-generativeai)
+requests==2.34.2         # PayPal Orders v2 REST calls (no checkout SDK)
+python-dotenv==1.2.4     # loads .env for local credential management
+pandas==3.1.1            # split-table rendering for st.dataframe
+
+# --- development extras (optional) -----------------------------------------
+# pytest==9.2.0          # runs tests/test_parsing.py

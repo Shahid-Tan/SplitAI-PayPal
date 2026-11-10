@@ -8,6 +8,7 @@
 #  STREAMLIT LOGS / CACHE
 # ============================================
 .streamlit/logs/
+.pytest_cache/
 
 # ============================================
 #  PYTHON RUNTIME ARTIFACTS

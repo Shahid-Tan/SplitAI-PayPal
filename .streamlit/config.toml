@@ -1,0 +1,51 @@
+# SplitAI — locked PayPal-branded theme (no light/dark toggle in settings).
+# Palette: PayPal navy #003087, PayPal blue #0070ba / #009cde, PayPal gold #ffc439.
+# The gold on the pay buttons is the ONLY custom CSS (keyed `st-key-paybtn` / `st-key-hero` in app.py).
+
+[theme]
+base = "light"                       # locked single look
+primaryColor = "#0070ba"             # buttons, links, active elements
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f2f7fc" # widget surfaces, slightly blue
+textColor = "#17284a"                # dark navy body text
+linkColor = "#0070ba"
+borderColor = "#d5e3f2"
+codeBackgroundColor = "#eef4fa"
+codeTextColor = "#0f3557"
+blueColor = "#0070ba"
+greenColor = "#1a7f37"
+redColor = "#cf222e"
+
+# Inter — closest widely-available face to PayPal's brand sans.
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+
+# Rounded inputs, pill-shaped PayPal buttons.
+baseRadius = "10px"
+buttonRadius = "full"
+
+# Brand-colored dataframe chrome (split table).
+dataframeHeaderBackgroundColor = "#003087"
+dataframeHeaderTextColor = "#ffffff"
+dataframeBorderColor = "#c9d9ee"
+
+# Brand chart palettes (blues + gold + semantic green/red).
+chartCategoricalColors = ["#0070ba", "#003087", "#009cde", "#ffc439", "#1a7f37", "#cf222e", "#57606a"]
+chartSequentialColors = ["#eaf3fb", "#c8e0f5", "#9cc8ec", "#6dadde", "#3d92cf", "#1f76b6", "#0f5c99", "#08456f", "#053352", "#022338"]
+chartDivergingColors = ["#003087", "#0d4a97", "#1f66ab", "#4286c4", "#76aad6", "#e8eef5", "#ffd45e", "#f8bd33", "#e59f14", "#996803"]
+
+# Breathing room (prefer these over .block-container CSS).
+paddingTop = "1.75rem"
+paddingBottom = "3rem"
+
+[theme.sidebar]
+# Full-contrast navy sidebar (never ship only backgroundColor).
+backgroundColor = "#003087"
+secondaryBackgroundColor = "#00246b"
+textColor = "#ffffff"
+linkColor = "#9dd6ff"
+primaryColor = "#009cde"
+borderColor = "#1e4d8c"
+codeBackgroundColor = "#00246b"
+codeTextColor = "#ffffff"
+paddingTop = "1.5rem"
+paddingBottom = "2rem"
