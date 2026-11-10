@@ -44,7 +44,7 @@ Live payments via approved PayPal merchant onboarding, bill upload from phone ca
 
 **Links**
 - 🎬 Demo video: `[YOUTUBE LINK HERE]`
-- 🌐 Live app: `[STREAMLIT/REPL URL HERE]`
+- 🌐 Live app: https://splitai-paypal.streamlit.app/
 - 📦 Repo: https://github.com/Shahid-Tan/SplitAI-PayPal
 
 > **Honesty note (keep):** payments are demonstrated in PayPal's sandbox with mock data; the PayPal.me flow is the live-usable path today. No user, revenue, or "production" claims are made.

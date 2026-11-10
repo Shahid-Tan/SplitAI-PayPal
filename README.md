@@ -18,7 +18,7 @@
 
 | Asset | Link |
 |---|---|
-| 🌐 Live demo (hosted app) | **[TO ADD — hosted URL]** |
+| 🌐 Live demo (hosted app) | **https://splitai-paypal.streamlit.app/** |
 | ▶️ Video walkthrough (< 3 min) | **[TO ADD — YouTube URL]** |
 | 🏆 Devpost project page | **[TO ADD — Devpost URL]** |
 
@@ -102,7 +102,7 @@ One request, one page: parse → split → settle. No accounts, no database, no 
 | Payments | **PayPal** — PayPal.Me settlement links (Sandbox REST in progress) | Settlement button after every split |
 | Language | **Python 3** | Entire app — a single ~200-line file |
 | Secrets | Sidebar input now · `.streamlit/secrets.toml` / env vars (recommended, gitignored) | API keys for Gemini / sandbox |
-| Hosting | Free Streamlit hosting — **[TO ADD — hosted URL]** | Live demo for judges |
+| Hosting | Free Streamlit hosting — https://splitai-paypal.streamlit.app/ (**live**) | Live demo for judges |
 
 ## 🚀 Quick start (5 minutes)
 
